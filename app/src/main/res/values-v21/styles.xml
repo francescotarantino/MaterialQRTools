@@ -1,0 +1,80 @@
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Tras">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.Gray" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:statusBarColor">@color/gray</item>
+    </style>
+    <style name="AppTheme.Red" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkRed</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkRed</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Red">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkRed</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkRed</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Red.Tras">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkRed</item>
+    </style>
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkGreen</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkGreen</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Green">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkGreen</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkGreen</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Green.Tras">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="colorPrimary">@color/colorPrimaryGreen</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+    <item name="colorAccent">@color/colorAccentGreen</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@color/colorPrimaryDarkGreen</item>
+</style>
+</resources>

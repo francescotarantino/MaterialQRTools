@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/notifybarkk2"
+            android:visibility="invisible"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorPrimaryDarkRed"
+            android:id="@+id/notifybarkkred2"
+            android:visibility="invisible"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorPrimaryDarkGreen"
+            android:id="@+id/notifybarkkgreen2"
+            android:visibility="invisible"/></LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qrview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:contentDescription="@string/qr"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textqr"
+        android:layout_below="@+id/qrview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:scrollbars="vertical"/>
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab1"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

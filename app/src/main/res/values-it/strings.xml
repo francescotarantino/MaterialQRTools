@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Material QR Tools</string>
+    <string name="navigation_drawer_open">Apri drawer</string>
+    <string name="navigation_drawer_close">Chiudi drawer</string>
+    <string name="listqr">Analizzati</string>
+    <string name="scan_name">Scanner</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="faq">FAQ</string>
+    <string name="action_help">Aiuto e info…</string>
+    <string name="crea">Crea</string>
+    <string name="write">Scrivi qualcosa!</string>
+    <string name="qr">Ecco il QR!</string>
+    <string name="scan">Analizza!</string>
+    <string name="msgerror">Inserisci un messaggio da codificare!</string>
+    <string name="version">Versione 2.2</string>
+    <string name="created">Creato da: franci22</string>
+    <string name="save">Salva</string>
+    <string name="other">Altro</string>
+    <string name="share">Condividi</string>
+    <string name="share_intent">Scegli con cosa condividere:</string>
+    <string name="error_create">Inserisci un messaggio da codificare</string>
+    <string name="funzionalitadisp">La funzionalità sarà presto disponibile!</string>
+    <string name="delete">Elimina</string>
+    <string name="ricreate">Vuoi ricreare il QR?</string>
+    <string name="yes">Si</string>
+    <string name="chose">Scegli una azione:</string>
+    <string name="conferma">Conferma</string>
+    <string name="finish">Finito</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="imagecreated">"L'immagine è stata salvata nella cartella: "</string>
+    <string name="saveonlist">Salva i QR creati nella lista dei QR</string>
+    <string name="createdbyuser">Creato usando la funzione crea</string>
+    <string name="qst_close">Conferma l\'uscita dall\'app</string>
+    <string name="closeapp_content">Sei sicuro di voler chiudere l\'app?</string>
+    <string name="no">No</string>
+    <string name="open_web_off">Sito web</string>
+    <string name="share_link_text">Scarica Material QR Tools!</string>
+    <string name="scan_group">Scansione di gruppo</string>
+    <string name="delete_list_scan">Elimina la lista dei QR scannerizzati</string>
+    <string name="ricreaqr">Ricrea QR</string>
+    <string name="listdeleted">La lista è stata svuotata!</string>
+    <string name="statusbarkitkat">Colora la statusbar (solo KitKat)</string>
+    <string name="modifyonrestart">Le modifiche verranno applicate al riavvio della app</string>
+    <string name="app_theme_select">Scegli un tema</string>
+    <string name="blue">Blu</string>
+    <string name="green">Verde</string>
+    <string name="red">Rosso</string>
+    <string name="sendemail">Vuoi inviare una mail a questo indirizzo?</string>
+    <string name="sendedbyapp">Inviata usando l\'app Material QR Tools</string>
+    <string name="selectmailsender">Scegli con cosa inviare la mail:</string>
+    <string name="lstEmpty">La lista dei QR è vuota!</string>
+    <string-array name="items_delete">
+        <item>Copia</item>
+        <item>Elimina</item>
+        <item>Condividi</item>
+        <item>Ricrea QR</item>
+    </string-array>
+    <string-array name="app_theme">
+        <item>Blu</item>
+        <item>Verde</item>
+        <item>Rosso</item>
+    </string-array>
+    <string name="errormkdir">Errore nella creazione della cartella /QRTools</string>
+    <string-array name="items_mail_qrcreate">
+        <item>Salva come PNG</item>
+        <item>Invia una mail</item>
+        <item>Condividi</item>
+    </string-array>
+    <string name="saveaspng">Salva come PNG</string>
+    <string name="sendanemail">Invia una mail</string>
+    <string-array name="items_link_qrcreate">
+        <item>Salva come PNG</item>
+        <item>Apri questo link</item>
+        <item>Condividi</item>
+    </string-array>
+    <string name="openlink">Apri questo link</string>
+    <string name="copy">Copia</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="attention">Attenzione</string>
+    <string name="tutorial_qst">Grazie per aver scaricato la mia app. Vuoi aprire il sito di Material QR Tools?</string>
+    <string name="open">Apri</string>
+</resources>
